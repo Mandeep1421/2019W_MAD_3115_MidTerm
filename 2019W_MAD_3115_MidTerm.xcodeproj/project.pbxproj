@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9B49CE2A2242F1C500B421CD /* backgroundDefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B49CE292242F1C400B421CD /* backgroundDefault.jpg */; };
-		9B49CE2C2242F85700B421CD /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49CE2B2242F85700B421CD /* LaunchScreenViewController.swift */; };
 		9B49CE2E2242F8A300B421CD /* 1-starter-image33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B49CE2D2242F8A300B421CD /* 1-starter-image33.jpg */; };
 		9B49CE302242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B49CE2F2242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg */; };
 		9BAC0C062241C855002252C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C052241C855002252C8 /* AppDelegate.swift */; };
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		9B49CE292242F1C400B421CD /* backgroundDefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundDefault.jpg; sourceTree = "<group>"; };
-		9B49CE2B2242F85700B421CD /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		9B49CE2D2242F8A300B421CD /* 1-starter-image33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-starter-image33.jpg"; sourceTree = "<group>"; };
 		9B49CE2F2242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg"; sourceTree = "<group>"; };
 		9BAC0C022241C855002252C8 /* 2019W_MAD_3115_MidTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2019W_MAD_3115_MidTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				9BAC0C342241C898002252C8 /* Student.swift */,
-				9B49CE2B2242F85700B421CD /* LaunchScreenViewController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,7 +297,6 @@
 				9BAC0C352241C898002252C8 /* Student.swift in Sources */,
 				9BAC0C3A2241C8DC002252C8 /* StudentResultViewController.swift in Sources */,
 				9BAC0C382241C8C7002252C8 /* StudentEntryViewController.swift in Sources */,
-				9B49CE2C2242F85700B421CD /* LaunchScreenViewController.swift in Sources */,
 				9BAC0C062241C855002252C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
