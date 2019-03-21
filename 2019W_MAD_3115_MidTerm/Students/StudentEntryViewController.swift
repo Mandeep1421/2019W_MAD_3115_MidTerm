@@ -26,7 +26,7 @@ class StudentEntryViewController: UIViewController,UIPickerViewDelegate,UIPicker
     }
     
     @IBOutlet weak var course: UIPickerView!
-    @IBOutlet weak var course: UILabel!
+    @IBOutlet weak var corse: UILabel!
     @IBOutlet weak var lblcurs: UILabel!
     @IBOutlet weak var txtSub1: UITextField!
     @IBOutlet weak var txtSub2: UITextField!
@@ -58,7 +58,7 @@ class StudentEntryViewController: UIViewController,UIPickerViewDelegate,UIPicker
         Marks.append(Float(txtSub4.text!)!)
         Marks.append(Float(txtSub5.text!)!)
         
-        let s1=Student(StudentId: txtID.text!, StudentName: txtName.text!, Birthday: birth.text!, Gender: gen.text!, Course: course.text!, Marks:Marks )
+        let s1=Student(StudentId: txtID.text!, StudentName: txtName.text!, Birthday: birth.text!, Gender: gen.text!, Course: corse.text!, Marks:Marks )
         //total! = s1.calculation(sid:txtEmail.text!, c: s1)
         let ab = UIStoryboard(name: "Main", bundle: nil)
         let StudentVC = ab.instantiateViewController(withIdentifier: "Student2") as! StudentResultViewController
