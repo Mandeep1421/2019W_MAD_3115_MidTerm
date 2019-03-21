@@ -11,6 +11,7 @@
 		9B49CE2E2242F8A300B421CD /* 1-starter-image33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B49CE2D2242F8A300B421CD /* 1-starter-image33.jpg */; };
 		9B49CE302242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B49CE2F2242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg */; };
 		9B49CE3222430B3E00B421CD /* StudentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49CE3122430B3E00B421CD /* StudentDetail.swift */; };
+		9B49CE3422430DDA00B421CD /* background-login-png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B49CE3322430DD900B421CD /* background-login-png-1.png */; };
 		9BAC0C062241C855002252C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C052241C855002252C8 /* AppDelegate.swift */; };
 		9BAC0C082241C855002252C8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC0C072241C855002252C8 /* LoginViewController.swift */; };
 		9BAC0C0B2241C855002252C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0C092241C855002252C8 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		9B49CE2D2242F8A300B421CD /* 1-starter-image33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-starter-image33.jpg"; sourceTree = "<group>"; };
 		9B49CE2F2242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg"; sourceTree = "<group>"; };
 		9B49CE3122430B3E00B421CD /* StudentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetail.swift; sourceTree = "<group>"; };
+		9B49CE3322430DD900B421CD /* background-login-png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-login-png-1.png"; sourceTree = "<group>"; };
 		9BAC0C022241C855002252C8 /* 2019W_MAD_3115_MidTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2019W_MAD_3115_MidTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAC0C052241C855002252C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BAC0C072241C855002252C8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				9BAC0C072241C855002252C8 /* LoginViewController.swift */,
 				9BAC0C092241C855002252C8 /* Main.storyboard */,
 				9BAC0C0C2241C857002252C8 /* Assets.xcassets */,
+				9B49CE3322430DD900B421CD /* background-login-png-1.png */,
 				9B49CE2D2242F8A300B421CD /* 1-starter-image33.jpg */,
 				9B49CE292242F1C400B421CD /* backgroundDefault.jpg */,
 				9B49CE2F2242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAC0C102241C857002252C8 /* LaunchScreen.storyboard in Resources */,
+				9B49CE3422430DDA00B421CD /* background-login-png-1.png in Resources */,
 				9B49CE302242FA0800B421CD /* jQuery-Fullscreen-Background-Slider-Plugin-screenslider.jpg in Resources */,
 				9B49CE2A2242F1C500B421CD /* backgroundDefault.jpg in Resources */,
 				9B49CE2E2242F8A300B421CD /* 1-starter-image33.jpg in Resources */,

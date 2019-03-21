@@ -10,11 +10,15 @@ import UIKit
 
 class StudentResultViewController: UIViewController {
 
+    @IBOutlet weak var lblTotal: UILabel!
+    @IBOutlet weak var lblPercentage: UILabel!
+    @IBOutlet weak var lblGrade: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*

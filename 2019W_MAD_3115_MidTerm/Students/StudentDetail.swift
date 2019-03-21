@@ -12,18 +12,36 @@ class Student
 {
     var sId:String
     var sName:String
-    var eMail:String
-    var marks: Array<Int>
+    var marks:[Float]
+    var course: String
+    var gender:String
+    var bday:String
 init()
 {
-sId = String()
-sName = String()
-eMail = String()
+self.sId = String()
+self.sName = String()
+self.marks = []
+    self.course = String()
+    self.gender = String()
+    self.bday = String()
 }
-    init(StudentId: String, StudentName: String, Email: String )
+    init(StudentId: String, StudentName: String, Birthday: String, Gender: String,Course: String, Marks:Array<Float> )
     {
         self.sId = StudentId
         self.sName = StudentName
-        self.eMail = Email
+        self.marks = Marks
+        self.gender = Gender
+        self.bday = Birthday
+        self.course = Course
     }
+    
+    func display()
+    {
+        print(sId)
+        print(sName)
+        print(gender)
+        print(bday)
+        
+    }
+    
 }

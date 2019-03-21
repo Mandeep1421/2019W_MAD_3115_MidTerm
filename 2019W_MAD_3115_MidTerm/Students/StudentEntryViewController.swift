@@ -11,9 +11,12 @@ import UIKit
 class StudentEntryViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
 {
     var Gender:String = ""
+    @IBOutlet weak var gen: UILabel!
     var Course = ["MADT", "CPCT", "CSE", "BAMT","PAMT"]
-    var total:Int?
-    
+    @IBOutlet weak var birth: UILabel!
+    var total:Float?
+    var date:String = ""
+    var Marks = [Float]()
     @IBOutlet weak var txtID: UITextField!
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var txtEmail: UITextField!
@@ -23,7 +26,7 @@ class StudentEntryViewController: UIViewController,UIPickerViewDelegate,UIPicker
     }
     
     @IBOutlet weak var course: UIPickerView!
-    
+    @IBOutlet weak var course: UILabel!
     @IBOutlet weak var lblcurs: UILabel!
     @IBOutlet weak var txtSub1: UITextField!
     @IBOutlet weak var txtSub2: UITextField!
@@ -39,9 +42,27 @@ class StudentEntryViewController: UIViewController,UIPickerViewDelegate,UIPicker
         // Do any additional setup after loading the view.
     }
     
+
     
+    @IBAction func birth(_ sender: UIDatePicker) {
+        let bDate = DateFormatter()
+        bDate.dateFormat = "dd-MM-YYYY"
+        let startDate = bDate.string(from: sender.date)
+        date=startDate
+    }
     @IBAction func btnCalculate(_ sender: UIButton)
     {
+       Marks.append(Float(txtSub1.text!)!)
+        Marks.append(Float(txtSub2.text!)!)
+        Marks.append(Float(txtSub3.text!)!)
+        Marks.append(Float(txtSub4.text!)!)
+        Marks.append(Float(txtSub5.text!)!)
+        
+        let s1=Student(StudentId: txtID.text!, StudentName: txtName.text!, Birthday: birth.text!, Gender: gen.text!, Course: course.text!, Marks:Marks )
+        //total! = s1.calculation(sid:txtEmail.text!, c: s1)
+        let ab = UIStoryboard(name: "Main", bundle: nil)
+        let StudentVC = ab.instantiateViewController(withIdentifier: "Student2") as! StudentResultViewController
+        self.navigationController?.pushViewController(StudentVC, animated: true)
         
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
